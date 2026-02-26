@@ -20,6 +20,8 @@ var lista_notas = new List<Notas>();
 lista_notas.Add(new Notas() { Id = 1, Materia = 1, Estudiante = 2, Nota1 = 3.0m, Nota2 = 4.5m, Nota3 = 1.0m, Nota4 = 2.9m, Nota5 = 4.0m, NotaF = 3.1m });
 lista_notas.Add(new Notas() { Id = 2, Materia = 3, Estudiante = 3, Nota1 = 2.0m, Nota2 = 3.0m, Nota3 = 4.0m, Nota4 = 2.0m, Nota5 = 0.0m, NotaF = 2.2m });
 lista_notas.Add(new Notas() { Id = 3, Materia = 2, Estudiante = 2, Nota1 = 3.5m, Nota2 = 4.0m, Nota3 = 2.9m, Nota4 = 1.3m, Nota5 = 4.2m, NotaF = 3.2m });
+lista_notas.Add(new Notas() { Id = 4, Materia = 1, Estudiante = 1, Nota1 = 3.5m, Nota2 = 4.0m, Nota3 = 2.9m, Nota4 = 1.3m, Nota5 = 4.2m, NotaF = 3.6m });
+
 
 var estudiantes_activos = lista_estudiantes.Count(x=>x.Activo);
 Console.WriteLine("Cantidad de estudiantes activos:" + estudiantes_activos);
